@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    /*background-image: url(../img/small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
+    /* background: url(../img/small.jpg) no-repeat center, green;*/
+    background: linear-gradient(90deg, green 20%, red 20% 50%, yellow 50%);
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    background-image: url(../img/iStock_Plane.jpg);
+    background-size: cover;
+    /* cover заполнит собой весь фон*/
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
